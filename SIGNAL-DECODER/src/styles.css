@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 20px;
+}
+
+/* Title and Level */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.level-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Score at top-right */
+.score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #161b22;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 6px;
+  width: 320px;
+  margin: 20px auto;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.cell {
+  aspect-ratio: 1/1;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Cell states */
+.cell.flashing {
+  background: #0ea5e9;
+}
+.cell.selected {
+  outline: 2px solid #facc15;
+}
+.cell.correct {
+  background: #22c55e;
+}
+.cell.wrong {
+  background: #ef4444;
+}
+.cell.missed {
+  background: #1e293b;
+  border: 2px dashed #9ca3af;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #238636;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover:enabled {
+  background: #2ea043;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Feedback */
+.feedback {
+  margin-top: 15px;
+  padding: 10px;
+  background: #1f2937;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Footer Full Width */
+.footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  background: #88fa3c; /* Different contrasting color */
+  color: #7400e0;
+  font-weight: bold;
+}
