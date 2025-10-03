@@ -1,0 +1,399 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\User\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v22.14.0
+4 verbose readDependencies loading dependencies from C:\Users\User\OneDrive\Desktop\Final Evaluation\signal-decoder\package.json
+5 verbose install where, deps [
+5 verbose install   'C:\\Users\\User\\OneDrive\\Desktop\\Final Evaluation\\signal-decoder',
+5 verbose install   [
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     '@eslint/js',
+5 verbose install     '@types/node',
+5 verbose install     '@types/react',
+5 verbose install     '@types/react-dom',
+5 verbose install     '@vitejs/plugin-react',
+5 verbose install     'babel-plugin-react-compiler',
+5 verbose install     'eslint',
+5 verbose install     'eslint-plugin-react-hooks',
+5 verbose install     'eslint-plugin-react-refresh',
+5 verbose install     'globals',
+5 verbose install     'typescript',
+5 verbose install     'typescript-eslint',
+5 verbose install     'vite'
+5 verbose install   ]
+5 verbose install ]
+6 verbose install where, peers [
+6 verbose install   'C:\\Users\\User\\OneDrive\\Desktop\\Final Evaluation\\signal-decoder',
+6 verbose install   []
+6 verbose install ]
+7 verbose installManyTop reading for lifecycle C:\Users\User\OneDrive\Desktop\Final Evaluation\signal-decoder\package.json
+8 info preinstall signal-decoder@0.0.0
+9 verbose readDependencies loading dependencies from C:\Users\User\OneDrive\Desktop\Final Evaluation\signal-decoder\package.json
+10 silly cache add args [ '@eslint/js@^9.36.0', null ]
+11 verbose cache add spec @eslint/js@^9.36.0
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: '@eslint/js@^9.36.0',
+12 silly cache add   scope: '@eslint',
+12 silly cache add   name: '@eslint/js',
+12 silly cache add   rawSpec: '^9.36.0',
+12 silly cache add   spec: '>=9.36.0 <10.0.0',
+12 silly cache add   type: 'range'
+12 silly cache add }
+13 silly addNamed @eslint/js@>=9.36.0 <10.0.0
+14 verbose addNamed ">=9.36.0 <10.0.0" is a valid semver range for @eslint/js
+15 silly addNameRange { name: '@eslint/js', range: '>=9.36.0 <10.0.0', hasData: false }
+16 silly mapToRegistry name @eslint/js
+17 silly mapToRegistry scope (from package name) @eslint
+18 verbose mapToRegistry no registry URL found in name for scope @eslint
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: '@eslint/js',
+21 silly mapToRegistry   scope: '@eslint',
+21 silly mapToRegistry   name: '@eslint/js',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag'
+21 silly mapToRegistry }
+22 silly mapToRegistry uri https://registry.npmjs.org/@eslint%2fjs
+23 verbose addNameRange registry:https://registry.npmjs.org/@eslint%2fjs not in flight; fetching
+24 silly cache add args [ '@types/node@^24.6.0', null ]
+25 verbose cache add spec @types/node@^24.6.0
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: '@types/node@^24.6.0',
+26 silly cache add   scope: '@types',
+26 silly cache add   name: '@types/node',
+26 silly cache add   rawSpec: '^24.6.0',
+26 silly cache add   spec: '>=24.6.0 <25.0.0',
+26 silly cache add   type: 'range'
+26 silly cache add }
+27 silly addNamed @types/node@>=24.6.0 <25.0.0
+28 verbose addNamed ">=24.6.0 <25.0.0" is a valid semver range for @types/node
+29 silly addNameRange { name: '@types/node', range: '>=24.6.0 <25.0.0', hasData: false }
+30 silly mapToRegistry name @types/node
+31 silly mapToRegistry scope (from package name) @types
+32 verbose mapToRegistry no registry URL found in name for scope @types
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: '@types/node',
+35 silly mapToRegistry   scope: '@types',
+35 silly mapToRegistry   name: '@types/node',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag'
+35 silly mapToRegistry }
+36 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+37 verbose addNameRange registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+38 silly cache add args [ '@types/react@^19.1.16', null ]
+39 verbose cache add spec @types/react@^19.1.16
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: '@types/react@^19.1.16',
+40 silly cache add   scope: '@types',
+40 silly cache add   name: '@types/react',
+40 silly cache add   rawSpec: '^19.1.16',
+40 silly cache add   spec: '>=19.1.16 <20.0.0',
+40 silly cache add   type: 'range'
+40 silly cache add }
+41 silly addNamed @types/react@>=19.1.16 <20.0.0
+42 verbose addNamed ">=19.1.16 <20.0.0" is a valid semver range for @types/react
+43 silly addNameRange { name: '@types/react', range: '>=19.1.16 <20.0.0', hasData: false }
+44 silly mapToRegistry name @types/react
+45 silly mapToRegistry scope (from package name) @types
+46 verbose mapToRegistry no registry URL found in name for scope @types
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '@types/react',
+49 silly mapToRegistry   scope: '@types',
+49 silly mapToRegistry   name: '@types/react',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag'
+49 silly mapToRegistry }
+50 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+51 verbose addNameRange registry:https://registry.npmjs.org/@types%2freact not in flight; fetching
+52 silly cache add args [ '@types/react-dom@^19.1.9', null ]
+53 verbose cache add spec @types/react-dom@^19.1.9
+54 silly cache add parsed spec Result {
+54 silly cache add   raw: '@types/react-dom@^19.1.9',
+54 silly cache add   scope: '@types',
+54 silly cache add   name: '@types/react-dom',
+54 silly cache add   rawSpec: '^19.1.9',
+54 silly cache add   spec: '>=19.1.9 <20.0.0',
+54 silly cache add   type: 'range'
+54 silly cache add }
+55 silly addNamed @types/react-dom@>=19.1.9 <20.0.0
+56 verbose addNamed ">=19.1.9 <20.0.0" is a valid semver range for @types/react-dom
+57 silly addNameRange { name: '@types/react-dom', range: '>=19.1.9 <20.0.0', hasData: false }
+58 silly mapToRegistry name @types/react-dom
+59 silly mapToRegistry scope (from package name) @types
+60 verbose mapToRegistry no registry URL found in name for scope @types
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: '@types/react-dom',
+63 silly mapToRegistry   scope: '@types',
+63 silly mapToRegistry   name: '@types/react-dom',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag'
+63 silly mapToRegistry }
+64 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact-dom
+65 verbose addNameRange registry:https://registry.npmjs.org/@types%2freact-dom not in flight; fetching
+66 silly cache add args [ '@vitejs/plugin-react@^5.0.4', null ]
+67 verbose cache add spec @vitejs/plugin-react@^5.0.4
+68 silly cache add parsed spec Result {
+68 silly cache add   raw: '@vitejs/plugin-react@^5.0.4',
+68 silly cache add   scope: '@vitejs',
+68 silly cache add   name: '@vitejs/plugin-react',
+68 silly cache add   rawSpec: '^5.0.4',
+68 silly cache add   spec: '>=5.0.4 <6.0.0',
+68 silly cache add   type: 'range'
+68 silly cache add }
+69 silly addNamed @vitejs/plugin-react@>=5.0.4 <6.0.0
+70 verbose addNamed ">=5.0.4 <6.0.0" is a valid semver range for @vitejs/plugin-react
+71 silly addNameRange {
+71 silly addNameRange   name: '@vitejs/plugin-react',
+71 silly addNameRange   range: '>=5.0.4 <6.0.0',
+71 silly addNameRange   hasData: false
+71 silly addNameRange }
+72 silly mapToRegistry name @vitejs/plugin-react
+73 silly mapToRegistry scope (from package name) @vitejs
+74 verbose mapToRegistry no registry URL found in name for scope @vitejs
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: '@vitejs/plugin-react',
+77 silly mapToRegistry   scope: '@vitejs',
+77 silly mapToRegistry   name: '@vitejs/plugin-react',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag'
+77 silly mapToRegistry }
+78 silly mapToRegistry uri https://registry.npmjs.org/@vitejs%2fplugin-react
+79 verbose addNameRange registry:https://registry.npmjs.org/@vitejs%2fplugin-react not in flight; fetching
+80 silly cache add args [ 'babel-plugin-react-compiler@^19.1.0-rc.3', null ]
+81 verbose cache add spec babel-plugin-react-compiler@^19.1.0-rc.3
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'babel-plugin-react-compiler@^19.1.0-rc.3',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'babel-plugin-react-compiler',
+82 silly cache add   rawSpec: '^19.1.0-rc.3',
+82 silly cache add   spec: '>=19.1.0-rc.3 <20.0.0',
+82 silly cache add   type: 'range'
+82 silly cache add }
+83 silly addNamed babel-plugin-react-compiler@>=19.1.0-rc.3 <20.0.0
+84 verbose addNamed ">=19.1.0-rc.3 <20.0.0" is a valid semver range for babel-plugin-react-compiler
+85 silly addNameRange {
+85 silly addNameRange   name: 'babel-plugin-react-compiler',
+85 silly addNameRange   range: '>=19.1.0-rc.3 <20.0.0',
+85 silly addNameRange   hasData: false
+85 silly addNameRange }
+86 silly mapToRegistry name babel-plugin-react-compiler
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'babel-plugin-react-compiler',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   name: 'babel-plugin-react-compiler',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag'
+89 silly mapToRegistry }
+90 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-react-compiler
+91 verbose addNameRange registry:https://registry.npmjs.org/babel-plugin-react-compiler not in flight; fetching
+92 silly cache add args [ 'eslint@^9.36.0', null ]
+93 verbose cache add spec eslint@^9.36.0
+94 silly cache add parsed spec Result {
+94 silly cache add   raw: 'eslint@^9.36.0',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'eslint',
+94 silly cache add   rawSpec: '^9.36.0',
+94 silly cache add   spec: '>=9.36.0 <10.0.0',
+94 silly cache add   type: 'range'
+94 silly cache add }
+95 silly addNamed eslint@>=9.36.0 <10.0.0
+96 verbose addNamed ">=9.36.0 <10.0.0" is a valid semver range for eslint
+97 silly addNameRange { name: 'eslint', range: '>=9.36.0 <10.0.0', hasData: false }
+98 silly mapToRegistry name eslint
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'eslint',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   name: 'eslint',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag'
+101 silly mapToRegistry }
+102 silly mapToRegistry uri https://registry.npmjs.org/eslint
+103 verbose addNameRange registry:https://registry.npmjs.org/eslint not in flight; fetching
+104 silly cache add args [ 'eslint-plugin-react-hooks@^5.2.0', null ]
+105 verbose cache add spec eslint-plugin-react-hooks@^5.2.0
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'eslint-plugin-react-hooks@^5.2.0',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'eslint-plugin-react-hooks',
+106 silly cache add   rawSpec: '^5.2.0',
+106 silly cache add   spec: '>=5.2.0 <6.0.0',
+106 silly cache add   type: 'range'
+106 silly cache add }
+107 silly addNamed eslint-plugin-react-hooks@>=5.2.0 <6.0.0
+108 verbose addNamed ">=5.2.0 <6.0.0" is a valid semver range for eslint-plugin-react-hooks
+109 silly addNameRange {
+109 silly addNameRange   name: 'eslint-plugin-react-hooks',
+109 silly addNameRange   range: '>=5.2.0 <6.0.0',
+109 silly addNameRange   hasData: false
+109 silly addNameRange }
+110 silly mapToRegistry name eslint-plugin-react-hooks
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'eslint-plugin-react-hooks',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   name: 'eslint-plugin-react-hooks',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag'
+113 silly mapToRegistry }
+114 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-hooks
+115 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react-hooks not in flight; fetching
+116 verbose request uri https://registry.npmjs.org/@types%2fnode
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 6:35:17 PM
+119 verbose request id ede65d7fc1176dba
+120 http request GET https://registry.npmjs.org/@types%2fnode
+121 verbose request uri https://registry.npmjs.org/babel-plugin-react-compiler
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 6:35:17 PM
+124 http request GET https://registry.npmjs.org/babel-plugin-react-compiler
+125 silly cache add args [ 'eslint-plugin-react-refresh@^0.4.22', null ]
+126 verbose cache add spec eslint-plugin-react-refresh@^0.4.22
+127 silly cache add parsed spec Result {
+127 silly cache add   raw: 'eslint-plugin-react-refresh@^0.4.22',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'eslint-plugin-react-refresh',
+127 silly cache add   rawSpec: '^0.4.22',
+127 silly cache add   spec: '>=0.4.22 <0.5.0',
+127 silly cache add   type: 'range'
+127 silly cache add }
+128 silly addNamed eslint-plugin-react-refresh@>=0.4.22 <0.5.0
+129 verbose addNamed ">=0.4.22 <0.5.0" is a valid semver range for eslint-plugin-react-refresh
+130 silly addNameRange {
+130 silly addNameRange   name: 'eslint-plugin-react-refresh',
+130 silly addNameRange   range: '>=0.4.22 <0.5.0',
+130 silly addNameRange   hasData: false
+130 silly addNameRange }
+131 silly mapToRegistry name eslint-plugin-react-refresh
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'eslint-plugin-react-refresh',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   name: 'eslint-plugin-react-refresh',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag'
+134 silly mapToRegistry }
+135 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react-refresh
+136 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react-refresh not in flight; fetching
+137 silly cache add args [ 'globals@^16.4.0', null ]
+138 verbose cache add spec globals@^16.4.0
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'globals@^16.4.0',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'globals',
+139 silly cache add   rawSpec: '^16.4.0',
+139 silly cache add   spec: '>=16.4.0 <17.0.0',
+139 silly cache add   type: 'range'
+139 silly cache add }
+140 silly addNamed globals@>=16.4.0 <17.0.0
+141 verbose addNamed ">=16.4.0 <17.0.0" is a valid semver range for globals
+142 silly addNameRange { name: 'globals', range: '>=16.4.0 <17.0.0', hasData: false }
+143 silly mapToRegistry name globals
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'globals',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   name: 'globals',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag'
+146 silly mapToRegistry }
+147 silly mapToRegistry uri https://registry.npmjs.org/globals
+148 verbose addNameRange registry:https://registry.npmjs.org/globals not in flight; fetching
+149 silly cache add args [ 'typescript@~5.9.3', null ]
+150 verbose cache add spec typescript@~5.9.3
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'typescript@~5.9.3',
+151 silly cache add   scope: null,
+151 silly cache add   name: 'typescript',
+151 silly cache add   rawSpec: '~5.9.3',
+151 silly cache add   spec: '>=5.9.3 <5.10.0',
+151 silly cache add   type: 'range'
+151 silly cache add }
+152 silly addNamed typescript@>=5.9.3 <5.10.0
+153 verbose addNamed ">=5.9.3 <5.10.0" is a valid semver range for typescript
+154 silly addNameRange { name: 'typescript', range: '>=5.9.3 <5.10.0', hasData: false }
+155 silly mapToRegistry name typescript
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'typescript',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   name: 'typescript',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag'
+158 silly mapToRegistry }
+159 silly mapToRegistry uri https://registry.npmjs.org/typescript
+160 verbose addNameRange registry:https://registry.npmjs.org/typescript not in flight; fetching
+161 silly cache add args [ 'typescript-eslint@^8.45.0', null ]
+162 verbose cache add spec typescript-eslint@^8.45.0
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'typescript-eslint@^8.45.0',
+163 silly cache add   scope: null,
+163 silly cache add   name: 'typescript-eslint',
+163 silly cache add   rawSpec: '^8.45.0',
+163 silly cache add   spec: '>=8.45.0 <9.0.0',
+163 silly cache add   type: 'range'
+163 silly cache add }
+164 silly addNamed typescript-eslint@>=8.45.0 <9.0.0
+165 verbose addNamed ">=8.45.0 <9.0.0" is a valid semver range for typescript-eslint
+166 silly addNameRange { name: 'typescript-eslint', range: '>=8.45.0 <9.0.0', hasData: false }
+167 silly mapToRegistry name typescript-eslint
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'typescript-eslint',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   name: 'typescript-eslint',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag'
+170 silly mapToRegistry }
+171 silly mapToRegistry uri https://registry.npmjs.org/typescript-eslint
+172 verbose addNameRange registry:https://registry.npmjs.org/typescript-eslint not in flight; fetching
+173 verbose stack Error: Unsupported URL Type: npm:rolldown-vite@7.1.14
+173 verbose stack     at parseUrl (C:\Users\User\node_modules\npm\node_modules\npm-package-arg\npa.js:169:13)
+173 verbose stack     at npa (C:\Users\User\node_modules\npm\node_modules\npm-package-arg\npa.js:75:12)
+173 verbose stack     at resolver (C:\Users\User\node_modules\npm\lib\install.js:845:42)
+173 verbose stack     at Timeout._onTimeout (C:\Users\User\node_modules\npm\lib\install.js:840:7)
+173 verbose stack     at listOnTimeout (node:internal/timers:594:17)
+173 verbose stack     at process.processTimers (node:internal/timers:529:7)
+174 verbose cwd C:\Users\User\OneDrive\Desktop\Final Evaluation\signal-decoder
+175 error Windows_NT 10.0.19045
+176 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\User\\node_modules\\npm\\bin\\npm-cli.js" "install"
+177 error node v22.14.0
+178 error npm  v2.15.12
+179 error Unsupported URL Type: npm:rolldown-vite@7.1.14
+180 error If you need help, you may report this error at:
+180 error     <https://github.com/npm/npm/issues>
+181 verbose exit [ 1, true ]
